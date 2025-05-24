@@ -1,0 +1,38 @@
+@media(max-width: 1200px) {
+    body {
+        background-image: url('../images/bg-mobile.svg') cover;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .main {
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+    .main .main-image img {
+        width: 100%;
+    }
+
+    .main .textos {
+        text-align: center;
+    }
+
+    .main .textos .btn {
+        margin-left: 0;
+    }
+
+    .footer .social-medias{
+        width: 100%;
+        justify-content: center;
+        margin: 0 auto;
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+    }
+}
